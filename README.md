@@ -96,7 +96,7 @@ Nissl staining is used to visualise Nissl substance (clumps of rough endoplasmic
 5. Histopathology
 6. American Journal of Pathology
 
-## DATASETS:
+## Datasets:
 
 ### 1.	WSI TISSUE CLASSIFICATION:
 - PAIP
