@@ -123,6 +123,7 @@ Image patches are usually square regions with dimensions ranging from 32 × 32 p
 2,3.  In the interest of time, a single tissue slide, or its digital counterpart, is often assessed. Annotations associated with a single tissue section can be provided such as whether a malignancy is present
 4.	Consequent to the gigapixel size of WSIs, image analysis requires further image reduction. Patches are often extracted based on annotations, if available, or otherwise 
 <img src="https://github.com/eshasadia/ComputationalPathologyTask/blob/main/Images/image1.jpg" width="400px" height="auto">
+
 ## Why Patch extraction method is used: 
 Using CNN directly for WSI classification has several drawbacks. First, extensive image down sampling is required by which most of the discriminative details could be lost. Second, it is possible that a CNN might only learn from one of the multiple discriminative patterns in an image, resulting in data inefficiency. Discriminative information is encoded in high-resolution image patches. There- fore, one solution is to train a CNN on high-resolution image patches and predict the label of a WSI based on patch-level predictions.
 
@@ -151,7 +152,7 @@ Tumour regions were represented by a minuscule proportion of pixels in WSI image
 
 
 ## SAMPLE WSI 
-<img src="https://github.com/eshasadia/ComputationalPathologyTask/blob/main/Images/image2.jpg" width="400px" height="auto">
+<img src="https://github.com/eshasadia/ComputationalPathologyTask/blob/main/Images/image2.png" width="400px" height="auto">
 
 
 
