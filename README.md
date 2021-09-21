@@ -72,21 +72,21 @@ Nissl staining is used to visualise Nissl substance (clumps of rough endoplasmic
  7.  Weakly Supervised Learning for Identification of Prostate Cancer.
 
 ## Conferences:
-•  	Medical Image Computing and Computer Assisted Intervention 
-•	  IEEE International Symposium on Biomedical Imaging  \n
-•	ACM Symposium on Applied Computing  \n
-•	Annual International Conference of the IEEE Engineering in Medicine and Biology Society \n
-•	International Workshop on Machine Learning in Medical Imaging  \n
-•	Medical Imaging : Image Processing  \n
-•	IEEE International Conference on Bioinformatics and Biomedicine \n
-•	International Conference on Information Processing in Medical Imaging \n
-•	Medical Imaging : Computer-Aided Diagnosis  \n
-•	IEEE EMBS International Conference on Biomedical & Health Informatics \n
-•	ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics \n
-•	Medical Imaging : Digital Pathology  \n
-•	Medical Imaging : Imaging Informatics for Healthcare, Research, and Applications  \n
-•	International Conference on Medical Imaging with Deep Learning \n
-•	IEEE International Conference on Bioinformatics and Bioengineering  \n
+1. Medical Image Computing and Computer Assisted Intervention 
+2. IEEE International Symposium on Biomedical Imaging  \n
+3.	ACM Symposium on Applied Computing  \n
+4. Annual International Conference of the IEEE Engineering in Medicine and Biology Society \n
+5. International Workshop on Machine Learning in Medical Imaging  \n
+6. Medical Imaging : Image Processing  \n
+7. IEEE International Conference on Bioinformatics and Biomedicine \n
+8. International Conference on Information Processing in Medical Imaging \n
+9. Medical Imaging : Computer-Aided Diagnosis  \n
+10.	IEEE EMBS International Conference on Biomedical & Health Informatics \n
+11.	ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics \n
+12.	Medical Imaging : Digital Pathology  \n
+13.	Medical Imaging : Imaging Informatics for Healthcare, Research, and Applications  \n
+14.	International Conference on Medical Imaging with Deep Learning \n
+15.	IEEE International Conference on Bioinformatics and Bioengineering  \n
 
 ## Journals:
 •	Annual Review of Pathology: Mechanisms of Disease
