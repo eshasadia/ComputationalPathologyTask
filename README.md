@@ -1,7 +1,7 @@
-# ComputationalPathologyTask
+# Computational Pathology 
 A branch of pathology that involves computational analysis of a broad array of methods to analyse patient specimens for the study of disease. It is the analysis of digitized pathology images with associated metadata, typically using artificial intelligence (AI) methods. It is simply the use of computer algorithms for understanding disease. 
 
-# DigitalTissueSlidesPreparation
+# Digital Tissue Slides Preparation
 
 Tissue procurement and preparation 
 Fixation 
@@ -38,7 +38,116 @@ The low power objective lens has more magnification power than the scanning obje
 ## 20x :
 While looking at insects and most plant biology, a 10x or 20x objective is probably the right choice.
 ## 40x
-The high-powered objective lens (also called “high dry” lens) is ideal for observing fine details within a specimen sample. The total magnification of a high-power objective lens combined with a 10x eyepiece is equal to 400x magnification,
+The high-powered objective lens (also called “high dry” lens) is ideal for observing fine details within a specimen sample. The total magnification of a high-power objective lens combined with a 10x eyepiece is equal to 400x magnification.
+
+## Slide Staining Process:
+It is a technique used to enable better visualization of cells and cell parts under the microscope. By using different stains, a nucleus or a cell wall are easier to view. Cells are primarily stained to enhance visualization of the cell or certain components
+It is used in histopathology and diagnosis, as it allows for the identification of abnormalities in cell count and structure under the microscope
+## Types of Stains:
+### •	Haematoxylin and eosin (H & E): 
+This is the most common histologic stain, used to differentiate different tissue structures. It also plays an important role in the diagnoses of various pathologies
+### •	Special stains: 
+Special stains stain are used to identify and demonstrate particular structures and tissues which are not visualized by H&E stains)
+### •	Toluidine blue:
+It is particularly attracted to nucleic acids, and is therefore used to stain tissues with high concentrations of DNA and RNA)
+### •	Alcian blue: 
+This staining is performed to see the mucoid degeneration and to identify acid mucins which are released by various connective and epithelial tissue tumor
+### •	Giemsa:
+ It stains human and pathogenic cells differently, therefore, it is used in the diagnosis of many diseases as it stains human cells purple, and bacterial cells pink, so that they may be differentiate
+### •	Van Gieson: 
+The van Gieson stain is a very common stain used to highlight the difference between collagen and other connective tissue such as muscle tissues)
+### •	Reticulin: 
+It is mainly used in histopathology of the liver, but can also be used to assess abnormalities in the spleen, bone marrow and kidneys. In the liver, both necrosis and cirrhosis cause irregular patterns of reticulin. Changes in reticulin can also signal the presence of tumours
+### •	Nissl : Nissl staining is used to visualise Nissl substance (clumps of rough endoplasmic reticulum and free polyribosomes), which is found in neurons.
+
+ ## AI / Deep learning use cases in Computational Pathology:
+
+•	Identify Glomeruli in Human Kidney Tissue Images
+•	Segmentation of Nuclei in Whole Slide Images
+•	Instance Segmentation
+•	Nuclei Instance Segmentation
+•	Fusion of Pathology and Genomics Data for Cancer Diagnosis and Prognosis
+•	Transformers for Disease Classification Tasks
+Weakly Supervised Learning for Identification of Prostate Cancer
+
+## CONFERENCES:
+•	Medical Image Computing and Computer Assisted Intervention
+•	IEEE International Symposium on Biomedical Imaging
+•	ACM Symposium on Applied Computing
+•	Annual International Conference of the IEEE Engineering in Medicine and Biology Society
+•	International Workshop on Machine Learning in Medical Imaging
+•	Medical Imaging : Image Processing
+•	IEEE International Conference on Bioinformatics and Biomedicine
+•	International Conference on Information Processing in Medical Imaging
+•	Medical Imaging : Computer-Aided Diagnosis
+•	IEEE EMBS International Conference on Biomedical & Health Informatics
+•	ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics
+•	Medical Imaging : Digital Pathology
+•	Medical Imaging : Imaging Informatics for Healthcare, Research, and Applications
+•	International Conference on Medical Imaging with Deep Learning
+•	IEEE International Conference on Bioinformatics and Bioengineering
+
+## JOURNALS:
+•	Annual Review of Pathology: Mechanisms of Disease
+•	Cell Systems
+•	Journal of Pathology
+•	Modern Pathology
+•	Histopathology
+•	American Journal of Pathology
+
+## DATASETS:
+
+### 1.	WSI TISSUE CLASSIFICATION:
+- PAIP
+- METASTATIC-TISSUE-CLASSIFICATION-PATCHCAMELYON
+### 2.	WSI SEGMENTATION
+-Colonoscopy tissue segment dataset
+-Signet ring cell dataset
+### 3.	GLANDS SEGMENTATION
+  - GlaS Dataset https://warwick.ac.uk/fac/cross_fac/tia/data/glascontest/download/
+### 4.	NUCLEI INSTANCE SEGMENTATION
+- CryoNuSeg: A dataset for nuclei instance segmentation of cryo sectioned H&E-stained histological images
+- NucMM Dataset: 3D Neuronal Nuclei Instance Segmentation at Sub-Cubic Millimetre Scale
+- PanNuke Dataset:  An Open Pan-Cancer Histology Dataset for Nuclei Instance Segmentation and Classification https://jgamper.github.io/PanNukeDataset/
+### 5.	MITOSIS DETECTION
+- ICPR 2012
+- ICPR 2014
+- TUPAC 16
+- CTMC: Cell Tracking with Mitosis Detection Dataset Challenge
+
+## Patch Extraction Process
+Image patches are usually square regions with dimensions ranging from 32 × 32 pixels up to 10,000 × 10,000 pixels with the majority of approaches using image patches of around 256 × 256 pixels (6, 25, 35)
+
+1.	Tissue specimen is often investigated as a potential predictor of patient diagnosis, prognosis, or other patient level information. 
+2,3.  In the interest of time, a single tissue slide, or its digital counterpart, is often assessed. Annotations associated with a single tissue section can be provided such as whether a malignancy is present
+4.	Consequent to the gigapixel size of WSIs, image analysis requires further image reduction. Patches are often extracted based on annotations, if available, or otherwise 
+
+## Why Patch extraction method is used: 
+Using CNN directly for WSI classification has several drawbacks. First, extensive image down sampling is required by which most of the discriminative details could be lost. Second, it is possible that a CNN might only learn from one of the multiple discriminative patterns in an image, resulting in data inefficiency. Discriminative information is encoded in high-resolution image patches. There- fore, one solution is to train a CNN on high-resolution image patches and predict the label of a WSI based on patch-level predictions.
+
+
+## Computational Pathology pipeline for cancer grading:
+The pipeline comprises four blocks as described below:
+
+### •	Pre-processing 
+### •	Heatmap generation
+### •	Feature extraction
+### •	Data balancing
+### •	Classification
+    The training can broadly split into tissue mask generation, patch extraction and training the models patch wise. 
+    
+### Tissue mask generation
+In this step, the entire tissue region was segmented from the background glass region of the WSI image
+### Patch coordinate extraction
+Using the tissue mask generated from the previous step, patches of the image were randomly extracted to make the training dataset. An equal number of tumorous and non-tumorous patches were extracted. A patch was considered tumorous if at least one pixel inside the patch was classified as a tumour.
+### Data augmentation
+To increase the number of data points and to better generalize the models across various staining and acquisition protocols, data augmentation schemes were proposed. Augmentations like “horizontal or vertical flip,” “90-degree rotations”, and “Gaussian blurring” along with color augmentation were performed
+### Loss function
+Tumour regions were represented by a minuscule proportion of pixels in WSI images, thereby leading to class imbalance. This issue was circumvented by training the network to minimize a hybrid loss function. The hybrid loss function is comprised of cross-entropy loss and a loss function based on the Dice overlap coefficientt.
+
+
+
+
 
 
 
