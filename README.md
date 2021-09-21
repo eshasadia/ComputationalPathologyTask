@@ -40,7 +40,10 @@ While looking at insects and most plant biology, a 10x or 20x objective is proba
 ## 40x
 The high-powered objective lens (also called “high dry” lens) is ideal for observing fine details within a specimen sample. The total magnification of a high-power objective lens combined with a 10x eyepiece is equal to 400x magnification.
 
-<img src="https://github.com/eshasadia/ComputationalPathologyTask/blob/main/Images/IMAGE3.png" width="400px" height="auto"> 
+<p align="center">
+  <img src="https://github.com/eshasadia/ComputationalPathologyTask/blob/main/Images/IMAGE3.png" width="400px" height="auto"> 
+</p>
+
 
 ## Slide Staining Process:
 It is a technique used to enable better visualization of cells and cell parts under the microscope. By using different stains, a nucleus or a cell wall are easier to view. Cells are primarily stained to enhance visualization of the cell or certain components
