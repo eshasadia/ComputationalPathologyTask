@@ -72,8 +72,8 @@ Nissl staining is used to visualise Nissl substance (clumps of rough endoplasmic
  7.  Weakly Supervised Learning for Identification of Prostate Cancer.
 
 ## Conferences:
-•	Medical Image Computing and Computer Assisted Intervention \n
-•	IEEE International Symposium on Biomedical Imaging  \n
+•  	Medical Image Computing and Computer Assisted Intervention 
+•	  IEEE International Symposium on Biomedical Imaging  \n
 •	ACM Symposium on Applied Computing  \n
 •	Annual International Conference of the IEEE Engineering in Medicine and Biology Society \n
 •	International Workshop on Machine Learning in Medical Imaging  \n
