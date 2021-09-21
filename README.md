@@ -160,3 +160,4 @@ Tumour regions were represented by a minuscule proportion of pixels in WSI image
 
 <img src="https://github.com/eshasadia/ComputationalPathologyTask/blob/main/20_5.jpeg" width="400px" height="auto">
 
+<img src="https://github.com/eshasadia/ComputationalPathologyTask/blob/main/20_8.jpeg" width="400px" height="auto">
