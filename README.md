@@ -139,6 +139,7 @@ The pipeline comprises four blocks as described below:
     The training can broadly split into tissue mask generation, patch extraction and training the models patch wise. 
  
  <img src="https://github.com/eshasadia/ComputationalPathologyTask/blob/main/Images/image.png" width="800px" height="auto">  
+ 
 
     
 ### Tissue mask generation
@@ -154,5 +155,8 @@ Tumour regions were represented by a minuscule proportion of pixels in WSI image
 ## SAMPLE WSI 
 <img src="https://github.com/eshasadia/ComputationalPathologyTask/blob/main/Images/image2.png" width="400px" height="auto">
 
+## EXTRACTED SAMPLE PATCHES 
+<img src="https://github.com/eshasadia/ComputationalPathologyTask/blob/main/11_4.jpeg" width="400px" height="auto">
 
+<img src="https://github.com/eshasadia/ComputationalPathologyTask/blob/main/20_5.jpeg" width="400px" height="auto">
 
