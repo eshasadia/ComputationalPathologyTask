@@ -73,13 +73,13 @@ Nissl staining is used to visualise Nissl substance (clumps of rough endoplasmic
 
 ## Conferences:
 1. Medical Image Computing and Computer Assisted Intervention 
-2. IEEE International Symposium on Biomedical Imaging  \n
-3.	ACM Symposium on Applied Computing  \n
-4. Annual International Conference of the IEEE Engineering in Medicine and Biology Society \n
-5. International Workshop on Machine Learning in Medical Imaging  \n
-6. Medical Imaging : Image Processing  \n
-7. IEEE International Conference on Bioinformatics and Biomedicine \n
-8. International Conference on Information Processing in Medical Imaging \n
+2. IEEE International Symposium on Biomedical Imaging  
+3.	ACM Symposium on Applied Computing  
+4. Annual International Conference of the IEEE Engineering in Medicine and Biology Society 
+5. International Workshop on Machine Learning in Medical Imaging  
+6. Medical Imaging : Image Processing  
+7. IEEE International Conference on Bioinformatics and Biomedicine 
+8. International Conference on Information Processing in Medical Imaging 
 9. Medical Imaging : Computer-Aided Diagnosis  \n
 10.	IEEE EMBS International Conference on Biomedical & Health Informatics \n
 11.	ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics \n
@@ -89,12 +89,12 @@ Nissl staining is used to visualise Nissl substance (clumps of rough endoplasmic
 15.	IEEE International Conference on Bioinformatics and Bioengineering  \n
 
 ## Journals:
-•	Annual Review of Pathology: Mechanisms of Disease
-•	Cell Systems
-•	Journal of Pathology
-•	Modern Pathology
-•	Histopathology
-•	American Journal of Pathology
+1. Annual Review of Pathology: Mechanisms of Disease
+2. Cell Systems
+3. Journal of Pathology
+4. Modern Pathology
+5. Histopathology
+6. American Journal of Pathology
 
 ## DATASETS:
 
