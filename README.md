@@ -64,9 +64,9 @@ Nissl staining is used to visualise Nissl substance (clumps of rough endoplasmic
  ## AI / Deep learning use cases in Computational Pathology:
 
  1.	 Identify Glomeruli in Human Kidney Tissue Images.
- 2. 	Segmentation of Nuclei in Whole Slide Images.
+ 2. Segmentation of Nuclei in Whole Slide Images.
  3.  Instance Segmentation.
- 4. 	Nuclei Instance Segmentation.
+ 4. Nuclei Instance Segmentation.
  5.	 Fusion of Pathology and Genomics Data for Cancer Diagnosis and Prognosis.
  6.  Transformers for Disease Classification Tasks.
  7.  Weakly Supervised Learning for Identification of Prostate Cancer.
