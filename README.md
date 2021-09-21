@@ -138,9 +138,9 @@ The pipeline comprises four blocks as described below:
     The training can broadly split into tissue mask generation, patch extraction and training the models patch wise. 
    
 <img
-src=“images/image.jpg”
+src=“images/image.png”
 raw=true
-alt=“Subject Pronouns”
+alt=“Subject Pipeline”
 style=“margin-right: 10px;”
 />
     
