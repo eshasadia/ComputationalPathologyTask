@@ -136,6 +136,13 @@ The pipeline comprises four blocks as described below:
 ### •	Data balancing
 ### •	Classification
     The training can broadly split into tissue mask generation, patch extraction and training the models patch wise. 
+   
+<img
+src=“images/image.jpg”
+raw=true
+alt=“Subject Pronouns”
+style=“margin-right: 10px;”
+/>
     
 ### Tissue mask generation
 In this step, the entire tissue region was segmented from the background glass region of the WSI image
