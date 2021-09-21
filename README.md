@@ -136,8 +136,9 @@ The pipeline comprises four blocks as described below:
 ### •	Data balancing
 ### •	Classification
     The training can broadly split into tissue mask generation, patch extraction and training the models patch wise. 
-   
-<img width=“964” alt=“Cancer Grading Pipeline” src="https://github.com/eshasadia/ComputationalPathologyTask/blob/main/Images/image.png">
+ 
+ <img src="https://github.com/eshasadia/ComputationalPathologyTask/blob/main/Images/image.png" width="800px" height="auto">  
+
     
 ### Tissue mask generation
 In this step, the entire tissue region was segmented from the background glass region of the WSI image
