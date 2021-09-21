@@ -58,7 +58,8 @@ This staining is performed to see the mucoid degeneration and to identify acid m
 The van Gieson stain is a very common stain used to highlight the difference between collagen and other connective tissue such as muscle tissues)
 ### •	Reticulin: 
 It is mainly used in histopathology of the liver, but can also be used to assess abnormalities in the spleen, bone marrow and kidneys. In the liver, both necrosis and cirrhosis cause irregular patterns of reticulin. Changes in reticulin can also signal the presence of tumours
-### •	Nissl : Nissl staining is used to visualise Nissl substance (clumps of rough endoplasmic reticulum and free polyribosomes), which is found in neurons.
+### •	Nissl :
+Nissl staining is used to visualise Nissl substance (clumps of rough endoplasmic reticulum and free polyribosomes), which is found in neurons.
 
  ## AI / Deep learning use cases in Computational Pathology:
 
@@ -70,24 +71,24 @@ It is mainly used in histopathology of the liver, but can also be used to assess
 •	Transformers for Disease Classification Tasks
 Weakly Supervised Learning for Identification of Prostate Cancer
 
-## CONFERENCES:
-•	Medical Image Computing and Computer Assisted Intervention
-•	IEEE International Symposium on Biomedical Imaging
-•	ACM Symposium on Applied Computing
-•	Annual International Conference of the IEEE Engineering in Medicine and Biology Society
-•	International Workshop on Machine Learning in Medical Imaging
-•	Medical Imaging : Image Processing
-•	IEEE International Conference on Bioinformatics and Biomedicine
-•	International Conference on Information Processing in Medical Imaging
-•	Medical Imaging : Computer-Aided Diagnosis
-•	IEEE EMBS International Conference on Biomedical & Health Informatics
-•	ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics
-•	Medical Imaging : Digital Pathology
-•	Medical Imaging : Imaging Informatics for Healthcare, Research, and Applications
-•	International Conference on Medical Imaging with Deep Learning
-•	IEEE International Conference on Bioinformatics and Bioengineering
+## Conferences:
+•	Medical Image Computing and Computer Assisted Intervention \n
+•	IEEE International Symposium on Biomedical Imaging  \n
+•	ACM Symposium on Applied Computing  \n
+•	Annual International Conference of the IEEE Engineering in Medicine and Biology Society \n
+•	International Workshop on Machine Learning in Medical Imaging  \n
+•	Medical Imaging : Image Processing  \n
+•	IEEE International Conference on Bioinformatics and Biomedicine \n
+•	International Conference on Information Processing in Medical Imaging \n
+•	Medical Imaging : Computer-Aided Diagnosis  \n
+•	IEEE EMBS International Conference on Biomedical & Health Informatics \n
+•	ACM International Conference on Bioinformatics, Computational Biology, and Health Informatics \n
+•	Medical Imaging : Digital Pathology  \n
+•	Medical Imaging : Imaging Informatics for Healthcare, Research, and Applications  \n
+•	International Conference on Medical Imaging with Deep Learning \n
+•	IEEE International Conference on Bioinformatics and Bioengineering  \n
 
-## JOURNALS:
+## Journals:
 •	Annual Review of Pathology: Mechanisms of Disease
 •	Cell Systems
 •	Journal of Pathology
